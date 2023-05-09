@@ -1,34 +1,34 @@
 #0
-
+```python
 print("Hello Mohammad Kahnavi")
-
+```
 #1
-
+```python
 print("Enter your name?")
 name = input()
 print("Hello" , name)
-
+```
 #2
-
+```python
 x = int(input())
 y = int(input())
 print(x+y)
-
+```
 #3
-
+```python
 x = int(input("Whrite the first number"))
 y = int(input("Whrite the second number"))
 z = str(x+y)
 print("The sum of them is equal to: " + z)
-
+```
 #4
-
+```python
 x = input("Whats your first name?")
 y = input("Whats your last name?")
 z = print(x,y)
-
+```
 #5
-
+```python
 #Mathematical operations
 print("Mohammad Kahnavi")
 x = int(input())
@@ -40,9 +40,9 @@ print("Times:", x * y)
 print("The power off:", x ** y)
 print("Divided:", x / y)
 print("Remainder:", x % y)
-
+```
 #6
-
+```python
 #String functions
 #Center()
 text = "Love"
@@ -73,9 +73,9 @@ x = text.title()
 fruits = ['apple', 'banana', 'cherry', 'orange']
 x = fruits.copy()
 print(x)
-
+```
 #7
-
+```python
 x = int(input("your average is in...level:"))
 if 20 >= x >= 18:
     print("Excellent")
@@ -89,9 +89,9 @@ elif 0 <= x < 9:
     print("Need more effort")
 elif x > 20 or x < 0:
     print("The entered number is invalid")
-    
+```
 #8
-
+```python
 numbers = []
 a = int(input())
 if a > 0:
@@ -109,21 +109,21 @@ e = int(input())
 if e > 0:
     numbers.append(e)
 print(numbers)
-
+```
 #9
-
+```python
 for i in range (5):
     x = input("Enter your name:")
     print(x)
-    
+```
 #10
-
+```python
 for x in range(1, 101):
     if x % 7 == 0:
         print(x)
-        
+```
 #11
-
+```python
 print("a:")
 i = 1
 while i <= 5:
@@ -147,9 +147,9 @@ i = 5
 while i >= 1:
     print((5 - i) * " " + i * "*")
     i = i - 1
-    
+```
 #12
-
+```python
 import math
 def prime():
     if x <= 1:
@@ -163,9 +163,9 @@ print(prime())
 استفاده از تابع تعریف شده در یک فایل دیگه:
 from text import prime
 prime()
-
+```
 #13
-
+```python
 #Queen
 s1 = input()
 s2 = input()
@@ -222,3 +222,4 @@ if count == 1:
     print("You can hit the nut")
 else:
     print("You can't hit the nut")
+```
