@@ -1,22 +1,27 @@
 #0
 print("Hello Mohammad Kahnavi")
+
 #1
 print("Enter your name?")
 name = input()
 print("Hello" , name)
+
 #2
 x = int(input())
 y = int(input())
 print(x+y)
+
 #3 
 x = int(input("Whrite the first number"))
 y = int(input("Whrite the second number"))
 z = str(x+y)
 print("The sum of them is equal to: " + z)
+
 #4
 x = input("Whats your first name?")
 y = input("Whats your last name?")
 z = print(x,y)
+
 #5
 #Mathematical operations
 print("Mohammad Kahnavi")
@@ -29,6 +34,7 @@ print("Times:", x * y)
 print("The power off:", x ** y)
 print("Divided:", x / y)
 print("Remainder:", x % y)
+
 #6
 #String functions
 #Center()
@@ -60,6 +66,7 @@ x = text.title()
 fruits = ['apple', 'banana', 'cherry', 'orange']
 x = fruits.copy()
 print(x)
+
 #7
 x = int(input("your average is in...level:"))
 if 20 >= x >= 18:
@@ -74,6 +81,7 @@ elif 0 <= x < 9:
     print("Need more effort")
 elif x > 20 or x < 0:
     print("The entered number is invalid")
+    
 #8
 numbers = []
 a = int(input())
@@ -92,14 +100,17 @@ e = int(input())
 if e > 0:
     numbers.append(e)
 print(numbers)
+
 #9
 for i in range (5):
     x = input("Enter your name:")
     print(x)
+    
 #10
 for x in range(1, 101):
     if x % 7 == 0:
         print(x)
+        
 #11
 print("a:")
 i = 1
@@ -124,6 +135,7 @@ i = 5
 while i >= 1:
     print((5 - i) * " " + i * "*")
     i = i - 1
+    
 #12
 import math
 def prime():
@@ -138,6 +150,7 @@ print(prime())
 استفاده از تابع تعریف شده در یک فایل دیگه:
 from text import prime
 prime()
+
 #13
 #Queen
 s1 = input()
