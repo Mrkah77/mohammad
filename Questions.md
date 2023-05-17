@@ -55,5 +55,5 @@ d)
 14سوال آخ جون نیست! از کوئرا:
 https://quera.org/problemset/3538/
 
-15.سوال سیگما از کوئرا:
+15.سوال سیگماگیر از کوئرا:
 https://quera.org/problemset/647/
