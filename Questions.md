@@ -56,4 +56,5 @@ d)
 https://quera.org/problemset/3538/
 
 15.سوال سیگماگیر از کوئرا:
+
 https://quera.org/problemset/647/
