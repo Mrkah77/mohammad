@@ -223,3 +223,28 @@ if count == 1:
 else:
     print("You can't hit the nut")
 ```
+#14
+```python
+x = input()
+x = x.split()
+y = input()
+y = y.split()
+z = input()
+z = z.split()
+c =0
+Days_of_weeks = ["Saturday", "Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+for day in Days_of_weeks:
+    if day not in x and day not in y and day not in z:
+        c += 1
+print(c)
+```
+#15
+```python
+n = int(input())
+m = int(input())
+sigma = 0
+for i in range(-10, m + 1):
+    for j in range(1, n + 1):
+        sigma += int((i + j)**3/(j**2))
+print(sigma)
+```
