@@ -38,15 +38,17 @@ try:
     bus_number = get_user_input("Enter your bus number: ")
     bus_model = get_user_input("Enter your bus model: ")
     working_hours = get_user_input("Enter your working hours: ")
-    phone_number = get_user_input("Enter your phone number: ")
-    national_code = get_user_input("Enter your national code: ")
 
+    phone_number = get_user_input("Enter your phone_number: ")
+    validate_input(phone_number, r'^\d{11}$')  # Validate 11-digit phone number
+    
+    national_code = get_user_input("Enter your national_code: ")
+    validate_input(national_code, r'^\d{10}$')  # Validate 10-digit national code
+    
     # Validate inputs
     validate_input(name, r'^[A-Za-z ]+$')
     validate_input(lastname, r'^[A-Za-z ]+$')
     validate_input(bus_number, r'^\d+$')
-    validate_input(phone_number, r'^\d+$')
-    validate_input(national_code, r'^\d+$')
 
     # Create a unique filename using the person's name
     filename = f"{name}_{lastname}.pdf"
