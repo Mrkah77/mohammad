@@ -20,7 +20,7 @@ try:
     # Prompt the user for personal information
     name = get_user_input("Enter your name: ")
     lastname = get_user_input("Enter your lastname: ")
-    choice = get_user_input("Was it useful app?! (yes/no) ")
+    choice = get_user_input("Was it useful?! (yes/no) ")
 
     if choice.lower() == "yes":
         print("Thanks for your collaboration")
