@@ -255,4 +255,11 @@ if 1 <= N <= 30:
     print(N * "#")
 else:
     print("not defined")
-
+```
+#17
+```python
+import math
+x = int(input())
+y = math.log2(x)
+print(math.floor(y))
+```
