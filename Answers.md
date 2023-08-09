@@ -263,3 +263,13 @@ x = int(input())
 y = math.log2(x)
 print(math.floor(y))
 ```
+#18
+```python
+n = float(input())#kilometer
+m = n / 1.6 # mile
+x = print(m) #tabdil kilometer be mile
+
+m = float(input())
+n = m * 1.6
+x = print(n) #tabdil mile be kilometer
+```
