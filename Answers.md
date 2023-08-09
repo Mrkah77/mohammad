@@ -254,7 +254,7 @@ N = int(input("Enter a number: "))
 if 1 <= N <= 30:
     print(N * "#")
 else:
-    print("not defined")
+    print("not defined") 
 ```
 #17
 ```python
