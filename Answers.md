@@ -248,3 +248,11 @@ for i in range(-10, m + 1):
         sigma += int((i + j)**3/(j**2))
 print(sigma)
 ```
+#16
+```python
+N = int(input("Enter a number: "))
+if 1 <= N <= 30:
+    print(N * "#")
+else:
+    print("not defined")
+
